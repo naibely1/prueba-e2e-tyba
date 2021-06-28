@@ -1,0 +1,27 @@
+{
+  "name": "prueba-e2e-tyba",
+  "version": "1.0.0",
+  "description": "Prueba tecnica para el cargo de QA Engineer para tyba",
+  "author": "Heleny Naibe Melo Poveda",
+  "keywords": [
+    "selenium",
+    "mocha"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naibely1/prueba-e2e-tyba.git"
+  },
+  "scripts": {
+    "test:e2e": "mocha --timeout 20000 e2e/*/*.js --reporter mochawesome"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^90.0.1",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
